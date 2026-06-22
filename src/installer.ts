@@ -142,11 +142,9 @@ async function getFullVersion(installPath: string) {
 
 function checkCompatibility() {
   // const supported = ["linux-x64", "win32-x64", "darwin-arm64", "darwin-x64"]
-
   // const platform = os.platform()
   // const arch = os.arch()
   // const host = `${platform}-${arch}`
-
   // if (!supported.includes(host)) {
   //   throw new Error(`Unsupported host "${host}"`)
   // }
