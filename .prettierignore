@@ -1,2 +1,4 @@
 node_modules/
 dist/
+.github/workflows/
+.pre-commit-config.yaml
