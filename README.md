@@ -12,8 +12,8 @@ See [action.yml](action.yml)
 
 ```yml
 steps:
-  - uses: actions/checkout@v3
-  - uses: nttld/setup-ndk@v1
+  - uses: actions/checkout@v6
+  - uses: step-security/setup-ndk@v1
     with:
       ndk-version: r26d
   - run: ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=./Android.mk NDK_APPLICATION_MK=./Application.mk
@@ -23,8 +23,8 @@ steps:
 
 ```yml
 steps:
-  - uses: actions/checkout@v3
-  - uses: nttld/setup-ndk@v1
+  - uses: actions/checkout@v6
+  - uses: step-security/setup-ndk@v1
     id: setup-ndk
     with:
       ndk-version: r21e
@@ -38,8 +38,8 @@ steps:
 
 ```yml
 steps:
-  - uses: actions/checkout@v3
-  - uses: nttld/setup-ndk@v1
+  - uses: actions/checkout@v6
+  - uses: step-security/setup-ndk@v1
     id: setup-ndk
     with:
       ndk-version: r26d
@@ -51,8 +51,8 @@ steps:
 
 ```yml
 steps:
-  - uses: actions/checkout@v3
-  - uses: nttld/setup-ndk@v1
+  - uses: actions/checkout@v6
+  - uses: step-security/setup-ndk@v1
     with:
       ndk-version: r21e
       local-cache: true
