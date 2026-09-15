@@ -29,7 +29,7 @@
     "@eslint/js": "^8.57.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/ini": "^4.1.0",
-    "@types/node": "^20.8.4",
+    "@types/node": "^26.0.0",
     "@vercel/ncc": "^0.38.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
